@@ -1,0 +1,310 @@
+[gd_scene format=3 uid="uid://dgv580xm0s5lf"]
+
+[node name="Game" type="Node"]
+
+[node name="UI" type="Node" parent="."]
+
+[node name="Top" type="Node" parent="UI"]
+
+[node name="Left" type="Control" parent="UI/Top"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="1" type="Control" parent="UI/Top/Left"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Top/Left"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Top/Left"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Center" type="Control" parent="UI/Top"]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="1" type="Control" parent="UI/Top/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Top/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Top/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Right" type="Control" parent="UI/Top"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 40.0
+grow_horizontal = 0
+
+[node name="1" type="Control" parent="UI/Top/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Top/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Top/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Center" type="Node" parent="UI"]
+
+[node name="Left" type="Control" parent="UI/Center"]
+layout_mode = 3
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -20.0
+offset_right = 40.0
+offset_bottom = 20.0
+grow_vertical = 2
+
+[node name="1" type="Control" parent="UI/Center/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Center/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Center/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Center" type="Control" parent="UI/Center"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="1" type="Control" parent="UI/Center/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Center/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Center/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Right" type="Control" parent="UI/Center"]
+layout_mode = 3
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -20.0
+offset_bottom = 20.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="1" type="Control" parent="UI/Center/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Center/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Center/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="full-screen" type="Control" parent="UI/Center"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bottom" type="Node" parent="UI"]
+
+[node name="Left" type="Control" parent="UI/Bottom"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 40.0
+grow_vertical = 0
+
+[node name="1" type="Control" parent="UI/Bottom/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Bottom/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Bottom/Left"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Center" type="Control" parent="UI/Bottom"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -40.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="1" type="Control" parent="UI/Bottom/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Bottom/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Bottom/Center"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Right" type="Control" parent="UI/Bottom"]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="1" type="Control" parent="UI/Bottom/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="2" type="Control" parent="UI/Bottom/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="3" type="Control" parent="UI/Bottom/Right"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Battle System" type="Node" parent="."]
+
+[node name="Card Effect Processor" type="Node" parent="Battle System"]
+
+[node name="Damage" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Healing" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Status Effect" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Over-Time-Effect" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Dispel" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Modifier" type="Node" parent="Battle System/Card Effect Processor"]
+
+[node name="Manager" type="Node" parent="Battle System"]
+
+[node name="Coordinator" type="Node" parent="Battle System/Manager"]
+
+[node name="AI" type="Node" parent="Battle System/Manager"]
+
+[node name="Processor" type="Node" parent="Battle System/Manager"]
+
+[node name="World System" type="Node" parent="."]
+
+[node name="Event Processor" type="Node" parent="."]
+
+[node name="Battle" type="Node" parent="Event Processor"]
+
+[node name="World" type="Node" parent="Event Processor"]
+
+[node name="Utility" type="Node" parent="."]
+
+[node name="Asset Generator" type="Node" parent="Utility"]
