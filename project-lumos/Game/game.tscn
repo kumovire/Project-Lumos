@@ -273,21 +273,41 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="Background" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Image" type="TextureRect" parent="UI/Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Battle" type="Node" parent="UI"]
+
+[node name="World" type="Node" parent="UI"]
+
 [node name="Battle System" type="Node" parent="."]
 
-[node name="Card Effect Processor" type="Node" parent="Battle System"]
+[node name="Munition Processor" type="Node" parent="Battle System"]
 
-[node name="Damage" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Damage" type="Node" parent="Battle System/Munition Processor"]
 
-[node name="Healing" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Healing" type="Node" parent="Battle System/Munition Processor"]
 
-[node name="Status Effect" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Status Effect" type="Node" parent="Battle System/Munition Processor"]
 
-[node name="Over-Time-Effect" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Over-Time-Effect" type="Node" parent="Battle System/Munition Processor"]
 
-[node name="Dispel" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Dispel" type="Node" parent="Battle System/Munition Processor"]
 
-[node name="Modifier" type="Node" parent="Battle System/Card Effect Processor"]
+[node name="Modifier" type="Node" parent="Battle System/Munition Processor"]
 
 [node name="Manager" type="Node" parent="Battle System"]
 
